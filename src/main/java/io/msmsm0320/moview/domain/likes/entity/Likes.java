@@ -23,4 +23,6 @@ public class Likes extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Reviews reviews;
+
+    // TODO : 좋아요 상태 추가하기
 }
